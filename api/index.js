@@ -9,6 +9,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/blog')
     console.log(err)
 })
 import userRoutes from './routes/user.route.js'
+import authRoutes from './routes/auth.route.js'
 
 const app=express();
 app.use(express.json());
@@ -17,5 +18,6 @@ app.listen(3100,()=>{
 });
 
 app.use('/api/user',userRoutes);  //use in index.js
+app.use('/api/auth',authRoutes);  //use in index.js
 
 
