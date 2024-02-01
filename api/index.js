@@ -20,4 +20,14 @@ app.listen(3100,()=>{
 app.use('/api/user',userRoutes);  //use in index.js
 app.use('/api/auth',authRoutes);  //use in index.js
 
+app.use((err,req,res,next)=>{
+    const statusCode=err.statusCode||500;
+    const message=err.message||'Internal Server Error';
+    res.status(statusCode).json({
+        success:false,
+        statusCode,
+        message
 
+    })
+})
+;
