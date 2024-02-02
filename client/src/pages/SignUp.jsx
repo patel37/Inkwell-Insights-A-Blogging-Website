@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Label, TextInput ,Button} from "flowbite-react";
+import { Label, TextInput, Button } from "flowbite-react";
 const SignUp = () => {
   return (
     <div className="min-h-screen mt-20">
@@ -14,7 +14,8 @@ const SignUp = () => {
             Blog
           </Link>
           <p className="text-sm mt-5">
-          Tap into intuitive, flexible tools that put writers, bloggers, and creators first.
+            Tap into intuitive, flexible tools that put writers, bloggers, and
+            creators first.
           </p>
         </div>
         {/* right */}
@@ -26,18 +27,25 @@ const SignUp = () => {
             </div>
             <div className="">
               <Label value="Your email" />
-              <TextInput type="text" placeholder="name@company.com" id="email" />
+              <TextInput
+                type="email"
+                placeholder="name@company.com"
+                id="email"
+              />
             </div>
             <div className="">
               <Label value="Your password" />
-              <TextInput type="text" placeholder="Password" id="password" />
+              <TextInput type="password" placeholder="Password" id="password" />
             </div>
-            <Button gradientDuoTone='purpleToPink' type="submit">Sign Up</Button>
-            
+            <Button gradientDuoTone="purpleToPink" type="submit">
+              Sign Up
+            </Button>
           </form>
           <div className="flex gap-2 text-sm mt-5">
             <span>Have an account?</span>
-            <Link to='/sign-in' className="text-blue-500">Sign In</Link>
+            <Link to="/sign-in" className="text-blue-500">
+              Sign In
+            </Link>
           </div>
         </div>
       </div>
