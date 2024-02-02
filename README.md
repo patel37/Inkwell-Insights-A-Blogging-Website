@@ -18,7 +18,7 @@ This is a full-stack blog application built using the MERN (MongoDB, Express.js,
 
 ## Prerequisites
 
-- Node.js and npm installed
+- Node.js and npm installed.
 - MongoDB installed and running locally
 
 ## Getting Started
