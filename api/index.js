@@ -1,6 +1,8 @@
 import express from 'express'
 import mongoose from 'mongoose'
-mongoose.connect('mongodb://127.0.0.1:27017/blog')
+import dotenv from 'dotenv';
+dotenv.config();
+mongoose.connect(process.env.MONGO)
 .then(()=>{
     console.log("Mongodb Connected!!")
 })
