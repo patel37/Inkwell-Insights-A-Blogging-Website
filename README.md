@@ -15,6 +15,9 @@ This is a full-stack blog application built using the MERN (MongoDB, Express.js,
 - Node.js: JavaScript runtime for server-side development.
 - Tailwind CSS: Utility-first CSS framework for styling.
 - Flowbite: A free Tailwind CSS component library for rapid UI development.
+- Redux Toolkit:
+- JSON Webtokens:
+- 
 
 ## Prerequisites
 
