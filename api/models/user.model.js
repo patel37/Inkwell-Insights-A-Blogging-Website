@@ -15,6 +15,10 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:true,
     },
+    profilePicture:{
+        type:String,
+        default:"https://ibb.co/YyM4Sb2"
+    }
 },{timestamps:true}
 );
 
