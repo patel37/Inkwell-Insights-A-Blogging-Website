@@ -23,6 +23,65 @@ This is a full-stack blog application built using the MERN (MongoDB, Express.js,
 - Node.js and npm installed.
 - MongoDB installed and running locally
 
+
+
 ## Getting Started
 
+To get started with this project, follow these steps:
 
+1. **Clone the repository:**
+
+    ```bash
+    git clone <repository_url>
+    ```
+
+2. **Change .env files:**
+
+    Update the details in the `.env` files located in the main directory and the client directory.
+
+    In the main directory `.env` file, set the following variables:
+
+    ```plaintext
+    MONGO='<YOUR MONGODB ADDRESS >'
+    JWT_SECRET='<YOUR JWT TOKEN SECRET>'
+    ```
+
+    In the client directory `.env` file, set the following variable:
+
+    ```plaintext
+    VITE_FIREBASE_API_KEY="<YOUR FIREBASE KEY>"
+    ```
+
+3. **Install dependencies:**
+
+    First, navigate to the `<repository_name>` folder and install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+    Then, navigate to the `api` folder and install its dependencies:
+
+    ```bash
+    cd ../api
+    npm install
+    ```
+
+4. **Run the development servers:**
+
+    In one terminal window, run the client development server:
+
+    ```bash
+    cd ../client
+    npm run dev
+    ```
+
+    In another terminal window, run the API development server:
+
+    ```bash
+    cd ../api
+    npm run dev
+    ```
+
+
+Now, you should have both the client and API servers up and running.Follow the link shown in client side terminal to view the website
