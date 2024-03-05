@@ -5,7 +5,7 @@ import { TextInput,Button } from 'flowbite-react'
 import{ getStorage, ref, uploadBytesResumable } from "firebase/storage";
 import{ app} from '../firebase';
 import{ getDownloadURL } from 'firebase/storage';
-import { uploadTask } from 'firebase/storage';
+
 
 const DashProfile = () => {
     const {currentUser}=useSelector(state=>state.user)
@@ -13,7 +13,7 @@ const DashProfile = () => {
     const [imageFileUrl, setImageFileUrl ] = useState(null);
     const [imageFileUploadProgress, setImageFileUploadProgress] = useState(null);
     const [imageFileUploadError, setImageFileUploadError] = useState(null);
-    console.log[imageFileUploadProgress, imageFileUploadError];
+    console.log(imageFileUploadProgress, imageFileUploadError);
     const filePickerRef = useRef(); 
     const handleImageChange = (e) => {
         const file = e.target.files[0]; 
@@ -32,8 +32,8 @@ const DashProfile = () => {
     const storage =  getStorage(app); 
     const fileName = new Date().getTime() + imageFile.name; 
     const storageRef = ref(storage, fileName);
-    const upploadTask = uploadBytesResumable(storageRef, imageFile);
-    upploadTask.on(
+    const uploadTask = uploadBytesResumable(storageRef, imageFile);
+    uploadTask.on(
         'state_changed',
         (snapshot) => {
             const progress = 
