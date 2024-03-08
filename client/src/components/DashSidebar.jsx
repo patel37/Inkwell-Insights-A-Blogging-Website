@@ -30,7 +30,7 @@ const DashSidebar = () => {
 
           <Sidebar.Item
             icon={HiArrowSmRight}
-            label={'User'}
+            //label={'User'}
             labelColor="dark"
           >
             Sign Out
