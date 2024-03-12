@@ -12,7 +12,7 @@ This is a full-stack blog application built using the MERN (MongoDB, Express.js,
 - **Server/Hosting**: 
 - **ODM**: Mongoose
 - **Backend**: ExpressJS, MongoDB, Firebase
-- **Misc**: Redux, JSON Web Tokens
+- **Misc**: Redux, JSON Web Tokens, React Quill
 
 ## Features
 
