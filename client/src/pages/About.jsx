@@ -8,7 +8,7 @@ export default function About() {
           </h1>
           <div className='text-md text-gray-500 flex flex-col gap-6'>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate, reprehenderit corporis quis dignissimos quaerat esse est delectus. Ab obcaecati quidem pariatur nihil omnis doloremque similique. Similique nemo laudantium sapiente aspernatur ex temporibus iste asperiores odio, voluptatibus minus illum nulla architecto adipisci modi fuga? Voluptates repellendus dolorem sit tempore maxime praesentium excepturi quisquam atque sunt magnam, fuga laboriosam hic sapiente officiis amet aliquam quas quos maiores perferendis! Repudiandae, in facilis?
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate, reprehenderit corporis quis dignissimos quaerat esse est delectus. Ab obcaecati quidem pariatur nihil omnis doloremque similique. Similique nemo laudantium sapiente aspernatur ex temporibus iste aasperiores odio, voluptatibus minus illum nulla architecto adipisci modi fuga? Voluptates repellendus dolorem sit tempore maxime praesentium excepturi quisquam atque sunt magnam, fuga laboriosam hic sapiente officiis amet aliquam quas quos maiores perferendis! Repudiandae, in facilis?
             </p>
 
             <p>
