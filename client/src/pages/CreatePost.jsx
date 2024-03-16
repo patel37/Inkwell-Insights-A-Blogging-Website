@@ -106,7 +106,9 @@ export default function CreatePost() {
             <option value='entertainment'>Entertainment</option>
             <option value='politics'>Politics</option>
             <option value='sports'>Sports</option>
+            <option value='science'>Science & Tech</option>
             <option value='news'>News</option>
+            <option value='health'>Health</option>
             <option value='local'>Local</option>
           </Select>
         </div>
