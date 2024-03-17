@@ -15,13 +15,14 @@ This is a full-stack blog application built using the MERN (MongoDB, Express.js,
 - **Misc**: React Redux Toolkit, JSON Web Tokens, React Quill, Moment, Nodemon, Cookie Parser, BcryptJS, Dotenv   
 
 ## Features
-
-
+- User Authentication using GoogleAuth
+- Light & Dark modes
 
 ## Prerequisites
 
 - Node.js and npm installed.
 - MongoDB installed and running locally
+- Firebase Configured
 
 
 
