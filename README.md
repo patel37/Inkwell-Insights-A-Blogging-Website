@@ -1,4 +1,4 @@
-# MERN Stack Blog Application
+# Inkwell Insights : A Full Stack Blogging Website
 
 ## Overview
 
