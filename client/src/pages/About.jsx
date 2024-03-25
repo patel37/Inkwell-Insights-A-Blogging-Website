@@ -8,16 +8,25 @@ export default function About() {
           </h1>
           <div className='text-md text-gray-500 flex flex-col gap-6'>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis cupiditate, reprehenderit corporis quis dignissimos quaerat esse est delectus. Ab obcaecati quidem pariatur nihil omnis doloremque similique. Similique nemo laudantium sapiente aspernatur ex temporibus iste aasperiores odio, voluptatibus minus illum nulla architecto adipisci modi fuga? Voluptates repellendus dolorem sit tempore maxime praesentium excepturi quisquam atque sunt magnam, fuga laboriosam hic sapiente officiis amet aliquam quas quos maiores perferendis! Repudiandae, in facilis?
-            </p>
+            Welcome to Inkwell Insights, a thriving community of avid readers,
+      writers, and bibliophiles. Our blog is a vibrant space where we
+      celebrate the power of words and the transformative impact of
+      literature on our lives.            </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed in debitis unde odio tempora numquam quae obcaecati! A quo asperiores tempora veritatis nulla commodi sequi nostrum corporis id placeat odio quis nam, in eos atque porro earum magnam dolore maxime.
-            </p>
+            Here, we delve into the depths of captivating narratives,
+      exploring the intricate worlds crafted by talented authors. From
+      thought-provoking fiction to insightful non-fiction, our blog
+      covers a diverse range of genres and topics, catering to every
+      literary taste.            </p>
 
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae vel nihil repellat quasi blanditiis, voluptas nulla architecto facere voluptatum. Doloremque, quod esse quia numquam nostrum maiores quibusdam molestiae voluptatum deleniti odio praesentium. Quia qui odio modi quam nisi laudantium tempora nobis ea!
-            </p>
+            What sets us apart is our commitment to fostering a community of
+      passionate readers and writers. We encourage open discussions,
+      respectful debates, and the sharing of personal experiences
+      related to the books we explore. Our goal is to create a
+      welcoming space where ideas flourish and the love for literature
+      knows no bounds.            </p>
           </div>
         </div>
       </div>
