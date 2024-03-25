@@ -29,11 +29,11 @@ const FooterCom = () => {
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                  href="/about"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Rick Roll
+                  Our Team
                 </Footer.Link>
                 <Footer.Link
                   href="/about"
@@ -55,11 +55,11 @@ const FooterCom = () => {
                   Github
                 </Footer.Link>
                 <Footer.Link
-                  href="https://www.youtube.com/watch?v=SV998yGXZys"
+                  href="https://www.instagram.com/nithin_s_730_/?next=%2F"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  My Oversized Biscuit
+                  Instagram
                 </Footer.Link>
               </Footer.LinkGroup>
             </div>
@@ -67,14 +67,14 @@ const FooterCom = () => {
               <Footer.Title title="Legal" />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://www.youtube.com/watch?v=pHALwt0Hgow"
+                  href="https://policies.google.com/privacy?hl=en-US"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Privacy Policy
                 </Footer.Link>
                 <Footer.Link
-                  href="https://www.youtube.com/watch?v=wlmAmHOPVnU"
+                  href="https://en.wikipedia.org/wiki/Terms_of_service"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
