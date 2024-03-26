@@ -17,6 +17,12 @@ This is a full-stack blog application built using the MERN (MongoDB, Express.js,
 ## Features
 - User Authentication using GoogleAuth
 - Light & Dark modes
+- Admin Management & Dashboard
+- Integration with Redux Toolkit, React Quill
+- Different views for admins and users
+- Search & Sort Functionality
+- Responsive
+- Comments, Likes, Edit integrated
 
 ## Prerequisites
 
