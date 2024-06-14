@@ -14,8 +14,16 @@ This is a full-stack blog application built using the MERN (MongoDB, Express.js,
 - **Backend**: ExpressJS, MongoDB, Firebase
 - **Misc**: React Redux Toolkit, JSON Web Tokens, React Quill, Moment, Nodemon, Cookie Parser, BcryptJS, Dotenv   
 
-## Demo
 
+## Live
+
+## Live
+
+The Web Application is hosted on Render
+
+[Live Website](https://inkwell-insights-a-blogging-website.onrender.com/)
+
+## Demo
 
 https://github.com/Nithin1729S/Inkwell-Insights-A-Blogging-Website/assets/78496667/c2585ab0-8abd-458b-a690-662ca9b6d66e
 
