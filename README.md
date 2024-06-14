@@ -18,6 +18,9 @@ This is a full-stack blog application built using the MERN (MongoDB, Express.js,
 
 
 https://github.com/Nithin1729S/Inkwell-Insights-A-Blogging-Website/assets/78496667/c2585ab0-8abd-458b-a690-662ca9b6d66e
+
+
+
 [Watch the Demo Video on YouTube](https://youtu.be/x0ALnLfWvc8)
 
 
