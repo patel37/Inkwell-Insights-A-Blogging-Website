@@ -16,9 +16,6 @@ This is a full-stack blog application built using the MERN (MongoDB, Express.js,
 
 
 ## Live
-
-## Live
-
 The Web Application is hosted on Render
 
 [Live Website](https://inkwell-insights-a-blogging-website.onrender.com/)
